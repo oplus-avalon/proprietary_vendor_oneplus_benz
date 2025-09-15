@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FIRMWARE>
+		<File name="KLUEG4RHGB-B0E1" manufacturer="SAMSUNG" target_version="0900"></File>
+		<File name="KLUFG8RHGB-B0E1" manufacturer="SAMSUNG" target_version="0900"></File>
+		<File name="HN8T05DEHKX073" manufacturer="SKhynix" target_version="A003"></File>
+		<File name="HN8T15DEHKX075" manufacturer="SKhynix" target_version="A003"></File>
+		<File name="HN8T05BZGKX015" manufacturer="SKhynix" target_version="A043"></File>
+</FIRMWARE>
+

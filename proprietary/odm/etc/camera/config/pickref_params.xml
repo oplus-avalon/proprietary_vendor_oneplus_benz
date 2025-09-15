@@ -1,0 +1,4090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TetrasSRParams>
+	<SRVersion>tetrasPICKREF_O_taylor_4615</SRVersion>
+	<PreSetParamsGroup>
+		<Mutable_Valid_Face_Ratio>20.0</Mutable_Valid_Face_Ratio>
+		<Mutable_Abandon_Frames_Num>2</Mutable_Abandon_Frames_Num>
+		<Mutable_Perf_OCL_Stall_Interval>1</Mutable_Perf_OCL_Stall_Interval>
+		<Mutable_Perf_OCL_Sleep_Time>500</Mutable_Perf_OCL_Sleep_Time>
+		<Mutable_Div_Block_Num_X>6</Mutable_Div_Block_Num_X>
+		<Mutable_Div_Block_Num_Y>8</Mutable_Div_Block_Num_Y>
+		<Mutable_Denoise_Model_Choose>true</Mutable_Denoise_Model_Choose>
+	</PreSetParamsGroup>
+	<SRParams>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="0, 2" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="2, Inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="0, 2" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="2, Inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="0, 2" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="2, Inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="0, 2" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="1" adrc="2, Inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="0, 2" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="0, 2" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="0, 2" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="0, 2" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="0, 2" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="2, Inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="0, 2" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="2, Inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="0, 2" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="2, Inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="0, 2" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="1" adrc="2, Inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="0, 2" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="0, 2" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="0, 2" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="0, 2" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="1" adrc="2, Inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="0, 2" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="2, Inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="0, 2" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="2, Inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="0, 2" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="2, Inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="0, 2" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="1" adrc="2, Inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="2" adrc="0, inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="2" adrc="0, inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="2" adrc="0, inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="2" adrc="0, inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="2" adrc="0, inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="2" adrc="0, inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="2" adrc="0, inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="2" adrc="0, inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="2" adrc="0, inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="2" adrc="0, inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="2" adrc="0, inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="2" adrc="0, inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="2" adrc="0, inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="2" adrc="0, inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="2" adrc="0, inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="2" adrc="0, inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="2" adrc="0, inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="2" adrc="0, inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="2" adrc="0, inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="2" adrc="0, inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="2" adrc="0, inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="2" adrc="0, inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="2" adrc="0, inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="2" adrc="0, inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="2" adrc="0, inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="2" adrc="0, inf" expo="0, inf" scale="1.6, 2.1">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="2" adrc="0, inf" expo="0, inf" scale="2.1, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="2" adrc="0, inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="2" adrc="0, inf" expo="0, inf" scale="6.5, 10.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="2" adrc="0, inf" expo="0, inf" scale="10.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="3" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="3" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="3" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="3" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="3" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="100">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="3" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="3" adrc="0, 2" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="3" adrc="2, Inf" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="3" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="3" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="3" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="3" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="100">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="3" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="160">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="3" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="3" adrc="0, 2" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="3" adrc="2, Inf" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="3" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="3" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="3" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="3" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="3" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="100">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="3" adrc="2, inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="100">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="3" adrc="0, 2" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="3" adrc="2, Inf" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="3" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="3" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="3" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="3" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="3" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="100">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="3" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="3" adrc="0, 2" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="3" adrc="2, Inf" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="3" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="3" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+				<DetailYDnoise>
+					<Mutable_Ref_Blur_Rate_Threshold>0.97</Mutable_Ref_Blur_Rate_Threshold>
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="3" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="3" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="3" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="100">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="3" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="3" adrc="0, 2" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="3" adrc="2, Inf" expo="0, inf" scale="6.5, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="7000">
+			</ParamItem>
+			<ParamItem max_iso="11000">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="0, 2" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="2, inf" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="0, 2" expo="0, inf" scale="10.2, inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="7000">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_ZOOM" cam_id="4" adrc="2, inf" expo="0, inf" scale="10.2, inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+				<DetailYDnoise>
+					<!-- <Mutable_Ref_Blur_Rate_Threshold>0.85</Mutable_Ref_Blur_Rate_Threshold> -->
+				</DetailYDnoise>
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="11000">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="110">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="4200">
+			</ParamItem>
+			<ParamItem max_iso="6600">
+			</ParamItem>
+			<ParamItem max_iso="11000">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1800">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1590">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="0, 2" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="2, inf" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="0, 2" expo="0, inf" scale="10.2, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_FACE" cam_id="4" adrc="2, Inf" expo="0, inf" scale="10.2, Inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="7000">
+			</ParamItem>
+			<ParamItem max_iso="11000">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="11000">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="0, 2" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="2, inf" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="0, 2" expo="0, inf" scale="10.2, inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="7000">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LARGE_MOTION" cam_id="4" adrc="2, inf" expo="0, inf" scale="10.2, inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="7000">
+			</ParamItem>
+			<ParamItem max_iso="11000">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="0, 2" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="2, inf" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="0, 2" expo="0, inf" scale="10.2, inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="7000">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_LOW_MEM_MODE" cam_id="4" adrc="2, inf" expo="0, inf" scale="10.2, inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="0, 2" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="2, Inf" expo="0, inf" scale="0.0, 1.6">
+			<ParamItem max_iso="105">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="0, 2" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="2, Inf" expo="0, inf" scale="1.6, 3.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="0, 2" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="7000">
+			</ParamItem>
+			<ParamItem max_iso="11000">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="2, Inf" expo="0, inf" scale="3.5, 6.5">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="0, 2" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="2, inf" expo="0, inf" scale="6.5, 10.2">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="0, 2" expo="0, inf" scale="10.2, inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="7000">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+		<ParamGroup sr_mode="SR_MODE_CHARACTER" cam_id="4" adrc="2, inf" expo="0, inf" scale="10.2, inf">
+			<ParamItem max_iso="150">
+			</ParamItem>
+			<ParamItem max_iso="300">
+			</ParamItem>
+			<ParamItem max_iso="500">
+			</ParamItem>
+			<ParamItem max_iso="800">
+			</ParamItem>
+			<ParamItem max_iso="1200">
+			</ParamItem>
+			<ParamItem max_iso="1600">
+			</ParamItem>
+			<ParamItem max_iso="3200">
+			</ParamItem>
+			<ParamItem max_iso="6400">
+			</ParamItem>
+			<ParamItem max_iso="12799">
+			</ParamItem>
+			<ParamItem max_iso="Inf">
+			</ParamItem>
+		</ParamGroup>
+	</SRParams>
+	<LegacyInternalParamsGroup>
+        <Module_Feature_Type>
+            <!-- <Mutable_Module_Feature_Vendor_Spec>SR_VENDOR_SPEC_TECNO</Mutable_Module_Feature_Vendor_Spec> -->
+            <Mutable_Module_Feature_Type_NoiseMap>NOISEMAP_BY_ISO_GAIN</Mutable_Module_Feature_Type_NoiseMap>
+        </Module_Feature_Type>
+        <FeatureGroup>
+            <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_use_abandon_frame</Mutable_Alg_Feature_Descript>
+				<Mutable_Alg_Feature_CameraId>3</Mutable_Alg_Feature_CameraId>
+                <Mutable_Alg_Feature_GainRange>[0, 800]</Mutable_Alg_Feature_GainRange>
+            </FeatureItem>
+			<FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_use_abandon_frame</Mutable_Alg_Feature_Descript>
+				<Mutable_Alg_Feature_CameraId>4</Mutable_Alg_Feature_CameraId>
+                <Mutable_Alg_Feature_GainRange>[0, 800]</Mutable_Alg_Feature_GainRange>
+            </FeatureItem>
+            <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_edge_smoothing_twodirec</Mutable_Alg_Feature_Descript>
+            </FeatureItem>
+            <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_sr_ace</Mutable_Alg_Feature_Descript>
+            </FeatureItem>
+            <FeatureItem>
+             <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_post_motion_blur</Mutable_Alg_Feature_Descript>
+            </FeatureItem>
+            <!-- <FeatureItem>
+             <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_dis_flow</Mutable_Alg_Feature_Descript>
+            </FeatureItem> -->
+            <FeatureItem>
+				<Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_edge_smoothing</Mutable_Alg_Feature_Descript>
+			</FeatureItem>
+            <FeatureItem>
+                 <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_use_local_enhance_mean_std</Mutable_Alg_Feature_Descript>
+            </FeatureItem>
+            <FeatureItem>
+                 <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_add_noise</Mutable_Alg_Feature_Descript>
+            </FeatureItem>
+            <!-- <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_use_abandon_frame</Mutable_Alg_Feature_Descript>
+            </FeatureItem> -->
+            <!-- <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_force_use_down_6_frames</Mutable_Alg_Feature_Descript>
+                <Mutable_Alg_Feature_CameraId>1</Mutable_Alg_Feature_CameraId>
+                <Mutable_Alg_Feature_GainRange>[0, 160]</Mutable_Alg_Feature_GainRange>
+            </FeatureItem> -->
+            <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_face_detect</Mutable_Alg_Feature_Descript>
+            </FeatureItem>
+            <FeatureItem>
+                <!-- name from variable of model_info_feat.cpp -->
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_check_input_brightness</Mutable_Alg_Feature_Descript>
+            </FeatureItem>
+            <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_large_motion_check</Mutable_Alg_Feature_Descript>
+            </FeatureItem>
+			<FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_face_alignThres</Mutable_Alg_Feature_Descript>
+               <Mutable_Alg_Feature_CameraId>2</Mutable_Alg_Feature_CameraId>
+           </FeatureItem>
+		   <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_face_alignThres</Mutable_Alg_Feature_Descript>
+               <Mutable_Alg_Feature_CameraId>4</Mutable_Alg_Feature_CameraId>
+           </FeatureItem>
+		   <FeatureItem>
+                <Mutable_Alg_Feature_Descript>SR_ALG_FEATURE_KEY_is_enable_input_frame_new_plan</Mutable_Alg_Feature_Descript>
+           </FeatureItem>
+        </FeatureGroup>
+    </LegacyInternalParamsGroup>
+</TetrasSRParams>

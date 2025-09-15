@@ -1,0 +1,479 @@
+{
+    "file_version": 0,
+    "default": {
+        "third_small_window": [
+            "com.tencent.mm.plugin.voip.ui.VideoActivity",
+            "com.tencent.av.ui.AVActivity"
+        ],
+        "third_scan": [
+            "com.eg.android.AlipayGphone.AlipayLogin",
+            "com.alipay.mobile.scan.as.main.MainCaptureActivity",
+            "com.tencent.mm.plugin.scanner.ui.BaseScanUI",
+            "com.meituan.android.scan.NewArActivity"
+        ],
+        "third_need_facebeauty": [
+            "com.tencent.mm",
+            "com.tencent.mobileqq",
+            "com.alibaba.android.rimet",
+            "com.tencent.wemeet.app",
+            "com.tencent.wework",
+            "us.zoom.videomeetings",
+            "com.heytap.speechassist",
+            "com.oplus.ai.assistant.extend",
+            "com.ss.android.ugc.aweme",
+            "com.smile.gifmaker"
+        ],
+        "third_need_xts_perf": [
+            "android.camera.cts",
+            "com.android.cts.verifier",
+            "android.mediapc.cts"
+        ],
+        "third_need_flash_flush": [
+            "com.fenbi.android.zhaojiao"
+        ],
+        "third_use_af_multi_window": [
+            "com.tencent.mm",
+            "com.ss.android.ugc.aweme.lite",
+            "com.tencent.mobileqq",
+            "com.tencent.wework",
+            "com.ss.android.ugc.aweme",
+            "com.smile.gifmaker",
+            "com.alibaba.android.rimet",
+            "com.kuaishou.nebula"
+        ],
+        "third_perf": [
+            "engineer:ORMS_ACTION_CAMERA_SLOW_720P",
+            "3rd:ORMS_ACTION_CAMERA_FRONT_PREVIEW",
+            "xts:ORMS_ACTION_CAMERA_OPEN"
+        ]
+    },
+
+    "com.tencent.av.ui.AVActivity": {
+        "third_fps_range": [
+             1,      -1,      -1,      -1,      15
+        ],
+        "third_sensormode": [
+             1,      -1,      -1,      -1,      -1,       2,
+             0,      -1,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "com.alibaba.android.teleconf.mozi.activity.TeleVideoConfActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      15
+        ],
+        "third_sensormode": [
+             1,      -1,      -1,      -1,      -1,       1,
+             0,      -1,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.google.android.youtube": {
+        "third_sensormode": [
+             0,      -1,      -1,      -1,      -1,       1,
+             1,      -1,      -1,      -1,      -1,       1
+        ]
+    },
+
+    "com.ss.android.ugc.aweme.live.LiveBroadcastActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      15
+        ],
+        "third_sensormode": [
+             1,      15,      -1,      -1,       0,       2,
+             0,      15,      -1,      -1,       0,       5
+        ]
+    },
+
+    "com.kuaishou.live.anchor.basic.activity.LivePushActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      15
+        ]
+    },
+
+    "com.tencent.wework.multitalk.controller.VoipCallActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      15
+        ]
+    },
+
+    "com.tencent.wework.meeting.ilink.flutter.ILinkMeetingActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      15
+        ],
+        "third_sensormode": [
+             1,      -1,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      15
+        ],
+        "third_sensormode": [
+             1,      -1,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.zipow.videobox.ConfActivityNormal": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      15
+        ]
+    },
+
+    "com.whatsapp.voipcalling.VoipActivityV2": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      24
+        ],
+        "third_sensormode": [
+             1,      24,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.linecorp.voip2.service.VoIPServiceActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      15
+        ]
+    },
+
+    "com.imo.android.imoim.activities.IMActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      24
+        ],
+        "third_sensormode": [
+             1,      24,    1280,     720,      -1,       2
+        ]
+    },
+
+    "com.imo.android.imoim.activities.Home": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      24
+        ],
+        "third_sensormode": [
+             1,      24,    1280,     720,      -1,       2
+        ]
+    },
+
+    "com.google.android.gms.ads.AdActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      24
+        ],
+        "third_sensormode": [
+             1,      24,    1280,     720,      -1,       2
+        ]
+    },
+
+    "com.imo.android.imoim.av.ui.AVActivity2": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      24
+        ],
+        "third_sensormode": [
+             1,      24,    1280,     720,      -1,       2
+        ]
+    },
+
+    "com.imo.android.imoim.av.ui.CallSystemSettingGuideActivity": {
+        "third_fps_range": [
+            -1,      -1,      -1,      -1,      24
+        ]
+    },
+
+    "gsi": {
+        "third_sensormode": [
+             1,      -1,    2304,    1296,      -1,       2
+        ]
+    },
+
+    "com.android.cts.verifier": {
+        "third_sensormode": [
+             0,      -1,      -1,      -1,      -1,       1,
+             1,      -1,    1920,    1080,      -1,       1
+        ]
+    },
+
+    "com.oplus.engineercamera": {
+        "third_sensormode": [
+             1,      -1,      -1,      -1,   36906,       1,
+             2,      -1,      -1,      -1,   32810,       0,
+            -1,      -1,      -1,      -1,   32810,       1,
+             2,      -1,      -1,      -1,   32802,       1,
+             2,      -1,      -1,      -1,   32804,       1,
+             2,      -1,      -1,      -1,   32809,       1,
+            -1,      -1,      -1,      -1,   32802,       6,
+            -1,      -1,      -1,      -1,   32804,       6,
+            -1,      -1,      -1,      -1,   32809,       6,
+             0,      -1,      -1,      -1,   36869,       6,
+             0,      -1,      -1,      -1,   36865,       1,
+             2,      -1,      -1,      -1,   36865,       2,
+             3,      -1,      -1,      -1,       0,       2,
+            -1,      -1,      -1,      -1,   36904,       1,
+             0,      -1,      -1,      -1,   36874,       1,
+             2,      -1,      -1,      -1,   36874,       0,
+             0,      -1,      -1,      -1,       0,       1,
+             1,      -1,      -1,      -1,       0,       1,
+             2,      -1,      -1,      -1,       0,       0,
+            -1,      -1,      -1,      -1,       0,       1
+        ]
+    },
+
+    "com.tencent.mm.plugin.voip.ui.VideoActivity": {
+        "third_sensormode": [
+             1,      15,      -1,      -1,      -1,       2,
+             0,      15,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "com.tencent.mm.ui.LauncherUI": {
+        "third_sensormode": [
+             1,      15,      -1,      -1,      -1,       2,
+             0,      15,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "com.tencent.mm.ui.chatting.ChattingUI": {
+        "third_sensormode": [
+             1,      15,      -1,      -1,      -1,       2,
+             0,      15,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "com.tencent.mm.plugin.scanner.ui.BaseScanUI": {
+        "third_sensormode": [
+             0,      30,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "com.tencent.mm.plugin.recordvideo.activity.MMRecordUI": {
+        "third_sensormode": [
+             0,      30,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "dov.com.qq.im.QIMCameraCaptureActivity": {
+        "third_sensormode": [
+            -1,      30,      -1,      -1,      -1,       1
+        ]
+    },
+
+    "com.tencent.aelight.camera.aebase.QIMCameraCaptureActivity": {
+        "third_sensormode": [
+            -1,      30,      -1,      -1,      -1,       1
+        ]
+    },
+
+    "com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,       0,       2,
+             0,      30,      -1,      -1,       0,       5
+        ]
+    },
+
+    "com.eg.android.AlipayGphone": {
+        "third_sensormode": [
+             0,      30,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "com.facebook.rtc.activities.InCallActivity": {
+        "third_sensormode": [
+             1,      30,     640,     360,      -1,       2,
+             1,      30,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.alipay.mobile.chatapp.ui.video.VideoRecordActivity_": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       1
+        ]
+    },
+
+    "com.zing.zalo.ui.ZaloLauncherActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       1
+        ]
+    },
+
+    "com.google.android.apps.youtube.app.extensions.reel.creation.shorts.activity.ShortsCreationActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       1
+        ]
+    },
+
+    "com.linecorp.line.camerascanner.main.CameraScannerActivity": {
+        "third_sensormode": [
+             0,      30,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "com.linecorp.line.camera.LineMixCamera": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.instagram.mainactivity.MainActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.whatsapp.camera.CameraActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "zm.voip.ui.incall.ZmInCallActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.viber.voip.phone.PhoneFragmentActivity": {
+        "third_sensormode": [
+             1,      30,     640,     480,      -1,       2
+        ]
+    },
+
+    "com.snap.mushroom.MainActivity": {
+        "third_sensormode": [
+             1,      30,    1280,     720,      -1,       2,
+             1,      30,    1920,    1080,      -1,       2
+        ]
+    },
+
+    "com.facebook.inspiration.composer.activity.InspirationComposerActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.facebook.composer.activity.ComposerActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.facebook.inspiration.activity.InspirationCameraActivity": {
+        "third_sensormode": [
+             1,      30,      -1,      -1,      -1,       2
+        ]
+    },
+
+    "com.tencent.mm": {
+        "third_perf": [
+            "com.tencent.mm.plugin.voip.ui.VideoActivity:NULL",
+            "com.tencent.mm.ui.LauncherUI:NULL",
+            "com.tencent.mm.ui.chatting.ChattingUI:NULL",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY_MIDDLE_POWER"
+        ]
+    },
+
+    "com.tencent.wework": {
+        "third_perf": [
+            "com.tencent.wework.multitalk.controller.VoipCallActivity:ORMS_ACTION_CAMERA_3RD_PARTY_LOW_POWER",
+            "com.tencent.wework.meeting.ilink.flutter.ILinkMeetingActivity:ORMS_ACTION_CAMERA_3RD_PARTY_LOW_POWER",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY"
+        ]
+    },
+
+    "com.tencent.mobileqq": {
+        "third_perf": [
+            "com.tencent.av.ui.AVActivity:ORMS_ACTION_CAMERA_3RD_PARTY_LOW_POWER",
+            "-1:ORMS_ACTION_CAMERA_FRONT_PREVIEW"
+        ]
+    },
+
+    "com.smile.gifmaker": {
+        "third_perf": [
+            "com.yxcorp.gifshow.camera.record.CameraActivity:ORMS_ACTION_CAMERA_FRONT_PREVIEW",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY"
+        ],
+        "third_sensormode": [
+             1,      -1,      -1,      -1,      -1,       2,
+             0,      -1,      -1,      -1,      -1,       5
+        ]
+    },
+
+    "com.kuaishou.nebula": {
+        "third_sensormode": [
+             1,      -1,      -1,      -1,      -1,       2,
+             0,      -1,      -1,      -1,      -1,       1
+        ]
+    },
+
+    "com.ss.android.ugc.aweme": {
+        "third_perf": [
+            "com.bytedance.mira.stub.p0.StubSingleTaskActivity1:ORMS_ACTION_CAMERA_3RD_PARTY",
+            "-1:ORMS_ACTION_CAMERA_FRONT_PREVIEW_PHOTO"
+        ]
+    },
+
+    "com.eg.android.AlipayGphone": {
+        "third_perf": [
+            "-1:ORMS_ACTION_CAMERA_FRONT_PREVIEW"
+        ]
+    },
+
+    "com.oplus.screenrecorder": {
+        "third_perf": [
+            "-1:ORMS_ACTION_CAMERA_VIDEO_PREVIEW_60FPS"
+        ]
+    },
+
+    "com.instagram.android": {
+        "third_perf": [
+            "-1:ORMS_ACTION_CAMERA_FRONT_PREVIEW_PHOTO"
+        ]
+    },
+
+    "com.whatsapp": {
+        "third_perf": [
+            "com.whatsapp.voipcalling.VoipActivityV2:NULL",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY"
+        ]
+    },
+
+    "com.kwai.m2u": {
+        "third_perf": [
+            "com.kwai.m2u.main.CameraActivity:ORMS_ACTION_CAMERA_3RD_PARTY_MIDDLE_POWER",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY"
+        ]
+    },
+
+    "org.telegram.messenger": {
+        "third_perf": [
+            "org.telegram.ui.LaunchActivity:ORMS_ACTION_CAMERA_3RD_PARTY_MIDDLE_POWER",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY"
+        ]
+    },
+
+    "com.meitu.meiyancamera": {
+        "third_perf": [
+            "com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity:ORMS_ACTION_CAMERA_3RD_PARTY_MIDDLE_POWER",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY"
+        ]
+    },
+
+    "com.mt.mtxx.mtxx": {
+        "third_perf": [
+            "com.mt.mtxx.camera.view.CameraActivity:ORMS_ACTION_CAMERA_3RD_PARTY_MIDDLE_POWER",
+            "-1:ORMS_ACTION_CAMERA_FRONT_PREVIEW"
+        ]
+    },
+
+    "com.gorgeous.lite": {
+        "third_perf": [
+            "com.light.beauty.mainpage.MainActivity:ORMS_ACTION_CAMERA_3RD_PARTY_MIDDLE_POWER",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY"
+        ]
+    },
+
+    "com.xunmeng.pinduoduo": {
+        "third_perf": [
+            "com.xunmeng.pinduoduo.activity.NewPageActivity:ORMS_ACTION_CAMERA_OPEN",
+            "-1:ORMS_ACTION_CAMERA_3RD_PARTY"
+        ]
+    }
+
+}
