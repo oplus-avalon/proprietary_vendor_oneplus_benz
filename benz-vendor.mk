@@ -1910,7 +1910,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.ims-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_vendor \
-    vendor.oplus.hardware.stability.oplus_project-V1-ndk \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
     vendor.pixelworks.hardware.display@1.2 \
@@ -2381,7 +2380,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
-    vendor.oplus.hardware.stability.oplus_project-V2-ndk \
     libCalculator_skel \
     libQnnHtpSkel \
     libQnnHtpV68 \
