@@ -2377,7 +2377,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
-    vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     libCalculator_skel \
