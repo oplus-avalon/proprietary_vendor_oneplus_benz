@@ -2336,7 +2336,6 @@ PRODUCT_PACKAGES += \
     libolc_vnd \
     libop-ai-beauty-body-detection \
     libop-ai-beauty-faceretouch-cn \
-    liboplus-uah-client \
     liboplus_service \
     liboplusblur_capture_api \
     liboptical_zoom_dc \
