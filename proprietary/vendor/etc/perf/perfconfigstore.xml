@@ -34,16 +34,16 @@ ________________________________________________________________________________
                 <!--Vendor Properties -->
                 <Prop Name="vendor.debug.enable.lm"                            Value="true" />
                 <Prop Name="vendor.perf.test_avc"                              Value="false" />
-                <Prop Name="vendor.perf.fps_switch_hyst_time_secs"             Value="10" />
+                <Prop Name="vendor.perf.fps_switch_hyst_time_secs"             Value="6" />
                 <Prop Name="ro.vendor.perf.gfl.tap_ignore_enable"              Value="true" />
-                <Prop Name="ro.vendor.perf.ss"                                 Value="false" />
+                <Prop Name="ro.vendor.perf.ss"                                 Value="true" />
                 <Prop Name="ro.vendor.iocgrp.config"                           Value="1" />
 
                 <!--splh is true/false for ss -->
                 <Prop Name="ro.vendor.perf.splh"                               Value="true" />
                 <Prop Name="ro.vendor.perf.lplh"                               Value="true" />
-                <Prop Name="ro.vendor.perf.lal"                                Value="false" />
-                <Prop Name="ro.vendor.perf.lgl"                                Value="false" SkewType="10"/>
+                <Prop Name="ro.vendor.perf.lal"                                Value="true" />
+                <Prop Name="ro.vendor.perf.lgl"                                Value="true" SkewType="10"/>
                 <Prop Name="vendor.perf.enable_gplaf_hw"                       Value="false" />
                 <Prop Name="ro.vendor.perf.dplh"                               Value="false" />
                 <Prop Name="ro.vendor.perf.attach.hint.ll"                     Value="true" />
@@ -99,15 +99,14 @@ ________________________________________________________________________________
                 <Prop Name="ro.lmk.nstrat_low_swap"                            Value="10" />
                 <Prop Name="ro.lmk.nstrat_psi_partial_ms"                      Value="70" />
                 <Prop Name="ro.lmk.nstrat_psi_complete_ms"                     Value="70" />
-                <Prop Name="ro.lmk.psi_scrit_complete_stall_ms"                Value="150" />
+                <Prop Name="ro.lmk.psi_scrit_complete_stall_ms"                Value="200" />
                 <Prop Name="ro.lmk.nstrat_wmark_boost_factor"                  Value="2" />
                 <Prop Name="ro.lmk.enable_userspace_lmk"                       Value="true" />
                 <Prop Name="ro.lmk.cache_percent"                              Value="10" />
-                <Prop Name="ro.lmk.nandswap_version"                           Value="2" />
 
                 <!--PreferredApps Properties -->
                 <Prop Name="ro.lmk.enable_preferred_apps"                      Value="true" />
-                <Prop Name="vendor.iop.enable_speed"                           Value="false" />
+                <Prop Name="vendor.iop.enable_speed"                           Value="true" />
                 <Prop Name="ro.vendor.perf.enable.prefapps"                    Value="true" />
                 <Prop Name="ro.vendor.perf.count.prefapps"                     Value="12" />
                 <Prop Name="ro.vendor.use_perf_hal_for_preferredapps"          Value="true" />
@@ -117,7 +116,7 @@ ________________________________________________________________________________
                 <!--AppCompaction Properties -->
                 <Prop Name="vendor.appcompact.enable_app_compact"              Value="true" />
                 <Prop Name="vendor.appcompact.full_compact_type"               Value="2" />
-                <Prop Name="vendor.appcompact.some_compact_type"               Value="2" />
+                <Prop Name="vendor.appcompact.some_compact_type"               Value="4" />
                 <Prop Name="vendor.appcompact.compact_throttle_somesome"       Value="5000" />
                 <Prop Name="vendor.appcompact.compact_throttle_somefull"       Value="10000" />
                 <Prop Name="vendor.appcompact.compact_throttle_fullsome"       Value="500" />

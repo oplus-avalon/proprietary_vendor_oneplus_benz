@@ -25,7 +25,7 @@
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <!-- Type="1", main launch of 2sec -->
         <Config
-           Id="0x00001081" Type="1" Enable="false" Timeout="2000"
+           Id="0x00001081" Type="1" Enable="true" Timeout="2000"
            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                       0x40800000, 1401, 0x40800100, 1363, 0x40800200, 1651" />
 
@@ -38,7 +38,7 @@
         <!-- GPU_IDLE_TIMER resource opcode, value-->
         <!-- Type="2", launch boost for disable packing 1.5sec -->
         <Config
-           Id="0x00001081" Type="2" Enable="false" Timeout="1500"
+           Id="0x00001081" Type="2" Enable="true" Timeout="1500"
            Resources="0x40400000, 0x1, 0x42C10000, 0x1, 0x4303C000, 0xC3500,
                       0x41844000, 0xE3C88, 0x43458000, 0x1AA900, 0x4282C000, 1500" />
 
@@ -49,7 +49,7 @@
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- Type="3", FA launch boost of 15sec -->
         <Config
-           Id="0x00001081" Type="3" Enable="false" Timeout="15000"
+           Id="0x00001081" Type="3" Enable="true" Timeout="15000"
           Resources="0x40C00000, 0x3, 0x40CF4000, 0x00640055, 0x40408000, 0x5,
           0x40C74000, 0xF0" />
 
@@ -60,7 +60,7 @@
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- Type="4", FA launch boost of 15sec -->
         <Config
-            Id="0x00001081" Type="4" Enable="false" Timeout="15000" Target="crow"
+            Id="0x00001081" Type="4" Enable="true" Timeout="15000" Target="crow"
            Resources="0x40C00000, 0x3, 0x40CF4000, 0x00640055, 0x40408000, 0x5,
            0x40C74000, 0xF0" />
 
@@ -76,7 +76,7 @@
 
         <!-- Type="6", Game Launch boost -->
         <Config
-            Id="0x00001081" Type="6" Enable="false" Timeout="2000"
+            Id="0x00001081" Type="6" Enable="true" Timeout="2000"
             Resources="0x40C68000, 60,
                        0x40C68200, 60,
                        0x40800000, 1113,
@@ -104,7 +104,7 @@
         <!-- Type="7", main launch of 2sec -->
 
         <Config
-            Id="0x00001081" Type="7" Enable="false" Timeout="2000"
+            Id="0x00001081" Type="7" Enable="true" Timeout="2000"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                       0x40800000, 1401, 0x40800100, 1363, 0x40800200, 1651, 0x40400000, 0x1,
                       0x42C10000, 0x1, 0x4303C000, 0xC3500, 0x41844000, 0xE3C88, 0x43458000, 0x1AA900,
@@ -117,7 +117,7 @@
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- Type="8", main launch of 2sec -->
         <Config
-            Id="0x00001081" Type="8" Enable="false" Timeout="2000"
+            Id="0x00001081" Type="8" Enable="true" Timeout="2000"
             Resources="0x40C00000, 0x3, 0x40CF4000, 0x00640055, 0x40408000, 0x5,
             0x40C74000, 0xF0" />
 
@@ -135,7 +135,7 @@
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- Type="9", main launch of 2sec -->
         <Config
-            Id="0x00001081" Type="9" Enable="false" Target="crow" Timeout="2000"
+            Id="0x00001081" Type="9" Enable="true" Target="crow" Timeout="2000"
             Resources="0x40C00000, 0x3, 0x40CF4000, 0x00640055,
            0x40C74000, 0xF0, 0x40C68000, 60,
                        0x40C68200, 60,
@@ -163,7 +163,7 @@
     <!--app launch boost (attach application) -->
         <!-- SCHED_TASK_BOOST resource opcode, value-->
         <Config
-            Id="0x00001081" Type="103" Enable="false" Timeout="2000"
+            Id="0x00001081" Type="103" Enable="true" Timeout="2000"
             Resources="0x40C80000, 0x0" />
 
     <!--app attach launch base boost (LL app attach) -->
@@ -180,9 +180,15 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="false" Timeout="400"
+            Id="0x00001083" Enable="true" Timeout="400"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF" />
+
+    <!--Exit app Animation boost -->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <Config
+            Id="0x000010A9" Enable="true" Timeout="400"  Fps="60"
+            Resources="0x40800100, 1300" />
 
     <!--Vertical Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -224,7 +230,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="1" Enable="false" Fps="120"
+            Id="0x00001080" Type="1" Enable="true" Fps="120"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1804, 0x40800100, 1363, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41848000, 0xE3C88" />
@@ -244,7 +250,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="1" Enable="false" Fps="144"
+            Id="0x00001080" Type="1" Enable="true" Fps="144"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1804, 0x40800100, 1363, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41844000, 0xE3C88, 0x43480000, 0xC9900,
@@ -260,7 +266,7 @@
 
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
-            Id="0x00001080" Type="2" Enable="false"
+            Id="0x00001080" Type="2" Enable="true"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1113, 0x40800100, 1075, 0x40800200, 940,
                        0x40C00000, 2, 0x41848000, 0xE3C88" />
 
@@ -273,7 +279,7 @@
         <!-- LPM Bias resource opcode, value-->
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <Config
-            Id="0x00001080" Type="2" Enable="false" Fps="90"
+            Id="0x00001080" Type="2" Enable="true" Fps="90"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1651, 0x40800100, 1363, 0x40800200, 1401,
                        0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x41848000, 0xE3C88" />
 
@@ -290,7 +296,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="2" Enable="false" Fps="120"
+            Id="0x00001080" Type="2" Enable="true" Fps="120"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1804, 0x40800100, 1363, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41848000, 0xE3C88" />
@@ -310,7 +316,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="2" Enable="false" Fps="144"
+            Id="0x00001080" Type="2" Enable="true" Fps="144"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1804, 0x40800100, 1363, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41844000, 0xE3C88, 0x43480000, 0xC9900,
@@ -325,7 +331,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1113, 0x40800100, 1075, 0x40800200, 940,
                        0x40C00000, 2, 0x41848000, 0xE3C88" />
 
@@ -339,7 +345,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="115" Fps="90"
+            Id="0x00001080" Type="4" Enable="true" Timeout="115" Fps="90"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1651, 0x40800100, 1363, 0x40800200, 1401,
                        0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x41848000, 0xE3C88" />
 
@@ -356,7 +362,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="115" Fps="120"
+            Id="0x00001080" Type="4" Enable="true" Timeout="115" Fps="120"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1804, 0x40800100, 1363, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41848000, 0xE3C88" />
@@ -376,7 +382,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="115" Fps="144"
+            Id="0x00001080" Type="4" Enable="true" Timeout="115" Fps="144"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1804, 0x40800100, 1363, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41844000, 0xE3C88, 0x43480000, 0xC9900,
@@ -394,7 +400,7 @@
 
         <!-- Type="", MTP boost -->
         <Config
-            Id="0x00001086" Enable="false"
+            Id="0x00001086" Enable="true"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000, 1401, 0x40800100, 1363, 0x40800200, 1401, 0x42C10000, 0x1" />
 
@@ -406,7 +412,7 @@
 
         <!-- Type="1", Drag boost -->
         <Config
-             Id="0x00001087" Type="1" Enable="false" Timeout="0"
+             Id="0x00001087" Type="1" Enable="true" Timeout="0"
              Resources="0x40800000, 1113, 0x40800100, 1075, 0x40800200, 940,
                         0x41848000, 0xE3C88" />
 
@@ -419,12 +425,12 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-             Id="0x00001087" Type="1" Enable="false" Timeout="0" Fps="120"
+             Id="0x00001087" Type="1" Enable="true" Timeout="0" Fps="120"
              Resources="0x40800000, 1113, 0x40800100, 1075, 0x40800200, 940, 0x40C00000, 2,
                         0x4303C000, 0xA6428, 0x43480000, 0xC9900, 0x41848000, 0xE3C88" />
 
          <Config
-             Id="0x00001087" Type="1" Enable="false" Timeout="0" Fps="144"
+             Id="0x00001087" Type="1" Enable="true" Timeout="0" Fps="144"
              Resources="0x40800000, 1113, 0x40800100, 1075, 0x40800200, 940, 0x40C00000, 2,
                         0x4303C000, 0xA6428, 0x43480000, 0x114900, 0x41848000, 0xE3C88" />
 
@@ -440,7 +446,7 @@
         <!-- SCHED_FORCE_LB_ENABLE resource opcode, value-->
         <!-- Type="", Package Install boost -->
         <Config
-            Id="0x00001088" Enable="false"
+            Id="0x00001088" Enable="true"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x40CA0000, 0, 0x40C00000, 2,
                        0x40CCC000, 0" />
@@ -455,7 +461,7 @@
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <!-- Type="", Rotation latency boost -->
         <Config
-            Id="0x00001089" Enable="false" Timeout="1500"
+            Id="0x00001089" Enable="true" Timeout="1500"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000,0xFFF, 0x40800100,0xFFF, 0x40800200,0xFFF" />
 
@@ -464,19 +470,19 @@
         <!-- GPU MIN_FREQUENCY resource opcode,value-->
         <!-- Type="", Rotation animation boost -->
         <Config
-            Id="0x00001090" Enable="false" Timeout="1000"
+            Id="0x00001090" Enable="true" Timeout="1000"
             Resources="0x40800100, 1324, 0x42804000, 0" />
 
     <!--Display on Resource -->
         <!-- Display on resource opcode, value -->
         <Config
-                Id="0x00001041" Enable="false" Timeout="0"
+                Id="0x00001041" Enable="true" Timeout="0"
                 Resources="0x40000000, 1" />
 
     <!--Display off Resource -->
         <!-- Display on resource opcode, value -->
         <Config
-                Id="0x00001040" Enable="false" Timeout="0"
+                Id="0x00001040" Enable="true" Timeout="0"
                 Resources="0x40000000, 0x0" />
 
         <!-- FPS Immediate Update from within Perfd -->
@@ -618,12 +624,12 @@
         <!-- SCHED_MIN_TASK_UTIL_FOR_BOOST, value-->
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <Config
-            Id="0x00001080" Type="5" Enable="false"
+            Id="0x00001080" Type="5" Enable="true"
             Resources="0x40C00000, 2, 0x40C78000, 0, 0x40C7C000, 0,
             0x41848000, 0xE3C88" />
 
         <Config
-            Id="0x00001080" Type="5" Enable="false" Target="crow" Fps="90, 120, 144, 180"
+            Id="0x00001080" Type="5" Enable="true" Target="crow" Fps="90, 120, 144, 180"
             Resources="0x40C00000, 2, 0x40800000, 940, 0x40C78000, 0, 0x40C7C000, 0,
             0x41848000, 0xE3C88" />
 
@@ -640,13 +646,13 @@
         <!-- CORE_CTL_ENABLE_BIG resource opcode, value-->
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <Config
-            Id="0x00001080" Type="6" Enable="false"
+            Id="0x00001080" Type="6" Enable="true"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1401, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xC9900, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF0, 0x40408000, 0x27, 0x41008000, 0, 0x41848000, 0xE3C88" />
 
         <Config
-            Id="0x00001080" Type="6" Enable="false" Fps="90, 120, 144, 180"
+            Id="0x00001080" Type="6" Enable="true" Fps="90, 120, 144, 180"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1401, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xC9900, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF0, 0x40408000, 0x27, 0x41008000, 0, 0x41848000, 0xE3C88" />
@@ -666,20 +672,20 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <!-- PID Affine opcode, value -->
         <Config
-            Id="0x00001080" Type="7" Enable="false"
+            Id="0x00001080" Type="7" Enable="true"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1651, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xC9900, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF0, 0x40408000, 0x27, 0x41008000, 0, 0x41008200, 0,
                        0x41848000, 0xE3C88" />
 
         <Config
-            Id="0x00001080" Type="7" Enable="false" Fps="90, 120"
+            Id="0x00001080" Type="7" Enable="true" Fps="90, 120"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1651, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xAAE60, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF0, 0x40408000, 0x27, 0x41008000, 0, 0x41008200, 0,
                        0x41848000, 0xE3C88" />
         <Config
-            Id="0x00001080" Type="7" Enable="false" Fps="144, 180"
+            Id="0x00001080" Type="7" Enable="true" Fps="144, 180"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1651, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xAAE60, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF0, 0x40408000, 0x27, 0x41008000, 0, 0x41008200, 0,
