@@ -58,8 +58,13 @@
             // allowed override value: 0 - 51
             "enc_qp_min": 10,
             "enc_qp_max": 40,
+            // #ifndef OPLUS_BUG_COMPATIBILITY
+            // SunQinhua@MULTIMEDIA.MEDIASERVER.PLAYER, output 4K video without color info as BT.709
             // override default primaries to BT709 for >=UHD decode
-            "default_primaries_override" : 0
+            // "default_primaries_override" : 0
+            //#else /*OPLUS_BUG_COMPATIBILITY*/
+            "default_primaries_override" : 1
+            // #endif OPLUS_BUG_COMPATIBILITY
         },
         "QC2CodecPlugins": [
             "libqcodec2_imgtxrfilter.so"

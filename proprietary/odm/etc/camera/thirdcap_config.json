@@ -405,7 +405,8 @@
     "com.ss.android.ugc.aweme": {
         "third_perf": [
             "com.bytedance.mira.stub.p0.StubSingleTaskActivity1:ORMS_ACTION_CAMERA_3RD_PARTY",
-            "-1:ORMS_ACTION_CAMERA_FRONT_PREVIEW_PHOTO"
+            "com.ss.android.ugc.aweme.live.LiveBroadcastActivity:ORMS_ACTION_CAMERA_FRONT_PREVIEW_PHOTO",
+            "-1:ORMS_ACTION_CAMERA_PREVIEW"
         ]
     },
 

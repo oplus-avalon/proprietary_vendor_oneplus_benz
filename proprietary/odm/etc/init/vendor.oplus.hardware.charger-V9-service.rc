@@ -1,4 +1,4 @@
-service oplus_charger_hal_service /odm/bin/hw/vendor.oplus.hardware.charger-V6-service
+service oplus_charger_hal_service /odm/bin/hw/vendor.oplus.hardware.charger-V9-service
     interface aidl vendor.oplus.hardware.charger.ICharger/default
     class hal
     user system
@@ -10,6 +10,10 @@ service wlschgd /odm/bin/hw/wlschgd
     group root system
     oneshot
 
+on init
+    chmod 0664 /sys/class/oplus_chg/common/track_hidl
+    chown system system /sys/class/oplus_chg/common/track_hidl
+
 on boot
     chown system system /dev/wls_dev
     chmod 0660 /dev/wls_dev
@@ -19,6 +23,23 @@ on charger
     chown system system /dev/wls_dev
     chmod 0660 /dev/wls_dev
     start wlschgd
+
+
+service gauged /odm/bin/hw/gauged
+    class main
+    user system
+    group root system
+    oneshot
+
+on boot
+    chown system system /dev/sec_dev
+    chmod 0660 /dev/sec_dev
+    start gauged
+
+on charger
+    chown system system /dev/sec_dev
+    chmod 0660 /dev/sec_dev
+    start gauged
 
 on property:sys.boot_completed=1
     write /proc/ui_soc_decimal 1
@@ -61,6 +82,8 @@ on property:sys.boot_completed=1
     chown system system /sys/class/oplus_chg/battery/gauge_info
     chown system system /sys/class/oplus_chg/common/sili_ic_alg_cfg
     chown system system /sys/class/oplus_chg/common/chg_up_limit
+    chown system system /sys/class/oplus_chg/common/byb_status
+    chown system system /sys/class/oplus_chg/common/byb_vout
     chown system system /sys/class/oplus_chg/battery/battery_first_usage_date
     chown system system /sys/class/oplus_chg/battery/battery_ui_cc
     chown system system /sys/class/oplus_chg/battery/battery_ui_soh
@@ -76,14 +99,26 @@ on property:sys.boot_completed=1
     chown system system /sys/bus/platform/devices/ext-power-throttling/ext_power_throttle_ut
     chown system system /proc/usb/repeater_parameters
     chown system system /proc/oplus_usb_eusb2/eusb2
+    chown system system /sys/class/oplus_chg/battery/reset_gauge
+    chown system system /sys/class/oplus_chg/battery/batt_ic_sn
+    chown system system /sys/class/oplus_chg/battery/historic_soh_date
     chown system system /proc/oplus_usb_xsphy/xsphy
     chmod 0666 /proc/usb/repeater_parameters
     chmod 0666 /proc/oplus_usb_eusb2/eusb2
     chmod 0666 /proc/oplus_usb_xsphy/xsphy
-    chown system system /sys/class/oplus_chg/common/plc
     chown system system /sys/class/oplus_chg/common/non_standard_chg_switch
+    chown system system /sys/class/oplus_chg/common/plc
+    chown system system /sys/class/oplus_chg/wireless/rx_disable
+    chown system system /sys/class/oplus_chg/wireless/bt_info
     chown system system /sys/class/oplus_chg/common/dec_delta
     chown system system /sys/class/oplus_chg/battery/battery_seal_flag
+    chown system system /sys/class/oplus_chg/common/lpd_config
+    chown system system /sys/class/oplus_chg/battery/sec_ic_test
+    chown system system /sys/class/oplus_chg/battery/chg_path
+    chown system system /sys/class/oplus_chg/battery/gauge_car_c
+    chown system system /sys/class/oplus_chg/battery/bdd_voltdiff_trend
+    chown system system /sys/class/oplus_chg/battery/get_three_level_term_volt
+    chown system system /sys/class/oplus_chg/battery/gauge_nvram_stress_test
 
 service ufcsd /odm/bin/hw/ufcsd
     class main
@@ -98,6 +133,9 @@ on boot
     chown system system /sys/class/oplus_chg/battery/battery_first_usage_date
     chown system system /sys/class/oplus_chg/battery/battery_ui_cc
     chown system system /sys/class/oplus_chg/battery/battery_ui_soh
+    chown system system /sys/class/oplus_chg/battery/reset_gauge
+    chown system system /sys/class/oplus_chg/battery/batt_ic_sn
+    chown system system /sys/class/oplus_chg/battery/historic_soh_date
     chown system system /sys/class/oplus_chg/battery/rechg_soc
     chown system system /sys/class/oplus_chg/battery/battery_used_flag
     start ufcsd
@@ -108,6 +146,10 @@ on charger
     chown system system /dev/ufcs_dev
     chown system system /sys/class/oplus_chg/common/chg_up_limit
     chown system system /sys/class/oplus_chg/battery/rechg_soc
+    chown system system /sys/class/oplus_chg/battery/reset_gauge
+    chown system system /sys/class/oplus_chg/battery/batt_ic_sn
+    chown system system /sys/class/oplus_chg/battery/historic_soh_date
     start ufcsd
     chown system system /sys/class/power_supply/battery/current_now
     chmod 0664 /sys/class/power_supply/battery/current_now
+
