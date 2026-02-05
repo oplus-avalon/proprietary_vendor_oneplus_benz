@@ -369,6 +369,18 @@
         "upBoundW": 1920,
         "upBoundH": 1080
     },
+    "com.shuru.nearme": {
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "com.playfake.instafake.funsta": {
+        "upBoundW": 1440,
+        "upBoundH": 1080
+    },
+    "com.cardfeed.video_public": {
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
     "com.mt.mtxx.mtxx": {
         "matchAPIUnknown": true,
         "filterSizes": [

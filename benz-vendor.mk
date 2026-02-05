@@ -666,7 +666,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
-    vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V9-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V9-service.rc \
+    vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V10-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V10-service.rc \
     vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
     vendor/oneplus/benz/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/benz/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
@@ -2620,7 +2620,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor.oplus.hardware.cammidasservice-V1-service \
-    vendor.oplus.hardware.charger-V9-service \
+    vendor.oplus.hardware.charger-V10-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
     init.subsys \
     oplus_sensor_fb
