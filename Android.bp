@@ -38445,6 +38445,7 @@ cc_prebuilt_binary {
                 "proprietary/odm/bin/hw/vendor.oplus.hardware.charger-V10-service",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libhidlbase",
                 "libbinder_ndk",
