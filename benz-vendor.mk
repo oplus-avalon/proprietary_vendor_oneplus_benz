@@ -1917,12 +1917,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.ims-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_vendor \
-    vendor.pixelworks.hardware.display@1.0 \
-    vendor.pixelworks.hardware.display@1.1 \
-    vendor.pixelworks.hardware.display@1.2 \
-    vendor.pixelworks.hardware.feature-V1-ndk \
-    vendor.pixelworks.hardware.feature@1.0 \
-    vendor.pixelworks.hardware.feature@1.1 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
