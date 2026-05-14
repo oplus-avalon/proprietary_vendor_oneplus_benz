@@ -2397,7 +2397,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     vendor.oplus.hardware.subsys-V5-ndk \
-    vendor.oplus.hardware.subsys_radio-V8-ndk \
+    vendor.oplus.hardware.subsys_radio-V9-ndk \
     odm_lib_rfsa_adsp_libCalculator_skel_so \
     odm_lib_rfsa_adsp_libQnnHtpSkel_so \
     odm_lib_rfsa_adsp_libQnnHtpV68_so \
