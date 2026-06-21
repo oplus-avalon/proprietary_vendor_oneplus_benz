@@ -1902,14 +1902,10 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.oplus.hardware.appradioaidl-V1-ndk \
     vendor.oplus.hardware.cameraextension-V1-ndk \
     vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.oplus.hardware.commondcs-V1-ndk_platform \
-    vendor.oplus.hardware.communicationcenter-V2-ndk_vendor \
-    vendor.oplus.hardware.cwb@1.0 \
-    vendor.oplus.hardware.ims-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_vendor \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
@@ -2393,11 +2389,8 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
-    vendor.oplus.hardware.communicationcenter-V2-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
-    vendor.oplus.hardware.subsys-V5-ndk \
-    vendor.oplus.hardware.subsys_radio-V9-ndk \
     odm_lib_rfsa_adsp_libCalculator_skel_so \
     odm_lib_rfsa_adsp_libQnnHtpSkel_so \
     odm_lib_rfsa_adsp_libQnnHtpV68_so \
