@@ -663,6 +663,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/benz/proprietary/odm/etc/init/init.oplus.sensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.sensor.rc \
     vendor/oneplus/benz/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
     vendor/oneplus/benz/proprietary/odm/etc/init/subsys_daemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/subsys_daemon.rc \
+    vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
     vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/benz/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
@@ -806,6 +807,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/benz/proprietary/odm/firmware/ufs/SKhynix-HN8T15DEHKX075.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-HN8T15DEHKX075.bin \
     vendor/oneplus/benz/proprietary/odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh:$(TARGET_COPY_OUT_ODM)/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh \
     vendor/oneplus/benz/proprietary/odm/firmware/ufs/ufs_version_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/ufs/ufs_version_config.xml \
+    vendor/oneplus/benz/proprietary/odm/init.oplus.face.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.face.rc \
     vendor/oneplus/benz/proprietary/odm/lib64/camera/awb_parameter_default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_default.bin \
     vendor/oneplus/benz/proprietary/odm/lib64/camera/awb_parameter_qtech_s5k3p9.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_qtech_s5k3p9.bin \
     vendor/oneplus/benz/proprietary/odm/lib64/camera/awb_parameter_sunny_imx355.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_sunny_imx355.bin \
@@ -841,6 +843,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/benz/proprietary/odm/vendor/firmware/alipay.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b07 \
     vendor/oneplus/benz/proprietary/odm/vendor/firmware/alipay.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b08 \
     vendor/oneplus/benz/proprietary/odm/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.mdt \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b00 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b01 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b02 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b03 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b04 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b05 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b06 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b07 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b08 \
+    vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_face.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.mdt \
     vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_jv.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b00 \
     vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_jv.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b01 \
     vendor/oneplus/benz/proprietary/odm/vendor/firmware/uff_jv.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b02 \
@@ -1474,6 +1486,7 @@ PRODUCT_PACKAGES += \
     libbt-hidlclient \
     libbtnv \
     libcacertclient \
+    libcamera2ndk_vendor \
     libcamerapostproc \
     libcamxcommonutils \
     libcamxexternalformatutils \
@@ -2308,6 +2321,7 @@ PRODUCT_PACKAGES += \
     libstblur_api \
     libstblur_capture_api \
     libstface_fd_api \
+    libstfaceunlockocl_uff \
     libstfd_mobile_api \
     libsubsys-service \
     libsubsys-utils \
@@ -2424,6 +2438,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_charger_aidl.xml \
     manifest_oplus_cwb.xml \
+    manifest_oplus_face.xml \
     manifest_oplus_fingerprint_aidl_v2.xml \
     manifest_oplus_ifaa.xml \
     manifest_oplus_sendextcamcmd.xml \
@@ -2523,6 +2538,7 @@ PRODUCT_PACKAGES += \
     commcenterd \
     gauged \
     subsys_daemon \
+    vendor.oplus.hardware.biometrics.face@1.0-service_uff \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor.oplus.hardware.cammidasservice-V1-service \
