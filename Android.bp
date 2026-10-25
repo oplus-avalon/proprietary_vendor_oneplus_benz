@@ -7567,7 +7567,7 @@ cc_prebuilt_library_shared {
                 "libnativewindow",
                 "liblog",
                 "libutils",
-                "libstagefright_foundation",
+                "libstagefright_foundation-v33",
                 "libcutils",
                 "libcamera_metadata",
                 "libmediandk",
