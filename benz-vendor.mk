@@ -1796,6 +1796,7 @@ PRODUCT_PACKAGES += \
     libtinyxml2_1 \
     libtrustedapploader \
     libubifocus \
+    libui-stock \
     libvideoml \
     libvideotxr \
     libvideoutils \
